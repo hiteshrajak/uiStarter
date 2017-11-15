@@ -11,11 +11,25 @@
 <body>
     <div class="wrapper">
             <form action=""> 
-                    <label for="user">UserName</label>
-                    <input type="text" name="user"> 
-                    <input type="submit">
-                    <input type="reset">
-             </form>
+                    
+                     <fieldset><!–– fieldsets are used as a wrapper or a box where inside you can put your input elements-->
+                    <legend>User Login Info</legend><!–– use with fieldset look like preety-->
+                       <label for="user">Username</label>
+                       <input type="text" name="user"> 
+                       <br>
+                       <br>
+                       <label for="pswd">Password</label>
+                       <input type="password" name="pswd">
+                       <br>
+                       <br>
+                       
+                       <input type="submit">
+
+                       <input type="reset">
+                       <input type="button"value="forgate Password">
+                       </fieldset>
+                    
+                    </form>
     </div>
 </body>
 
