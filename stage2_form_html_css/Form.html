@@ -13,7 +13,7 @@
             <form action=""> 
                     
                      <fieldset><!–– fieldsets are used as a wrapper or a box where inside you can put your input elements-->
-                    <legend>User Login Info</legend><!–– use with fieldset look like preety-->
+                        <legend>User Login Info</legend><!–– use with fieldset look like preety-->
                        <label for="user">Username</label>
                        <input type="text" name="user"> 
                        <br>
@@ -23,8 +23,14 @@
                        <br>
                        <br>
                        
+                       <label for="male">Male</label>
+                       <input type="radio" name="gender" id="male" value="male"><br>
+                       <label for="female">Female</label>
+                       <input type="radio" name="gender" id="female" value="female"><br>
+                       <label for="other">Other</label>
+                       <input type="radio" name="gender" id="other" value="other">
+                       <br><br>
                        <input type="submit">
-
                        <input type="reset">
                        <input type="button"value="forgate Password">
                        </fieldset>
