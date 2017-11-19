@@ -1,0 +1,42 @@
+Markup:-
+				Markup is the combination of tags or elements that I'm using on the webpage.
+
+
+
+Doctype :-
+				The first tag that every HTML document has is the doctype,
+				it's written like this <!doctype html> doctype defines what
+				kind of HTML edition we are using on the webpage.
+				
+				HTML has been revised ever since it was launched in first edition.
+				So it has a first edition, second edition, the third, the fourth
+				and now the latest one is called HTML5.
+				
+				So if you write this <!doctype html> line, the browser is going 
+				to know that we are using the HTML5 edition and when it processes 
+				our HTML, it's going to use the latest definitions of HTML5 and
+				render a page.
+			
+			
+Strong tag :-
+				Let's learn about the strong tag. Strong tag is simply the bold tag. If you 
+				want to bold anything or certain words, you can simply write <strong>Any Word
+				Here</strong> it will bold the text between the strong tag.
+				
+CSS reference:- To accomplish that we can create a link tag like and reference it like such 
+				<link rel="stylesheet" href="style.css"> .
+				Now since the style.css file is in the CSS folder, we're going to write like such  
+				<link rel="stylesheet" href="css/style.css"> save it, refresh the screen and you 
+				get the same result.
+				
+meta charset= utf-8
+what does it mean:-
+				That meta tag basically specifies what character set is your website written with.
+				... UTF-8 (U from Universal Character Set + Transformation Format—8-bit) is a 
+				character encoding capable of encoding all possible characters (called code points)
+				in Unicode. The encoding is variable-length and uses 8-bit code units
+					
+					
+					
+					
+					
